@@ -1,0 +1,382 @@
+
+*{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+header .bigbox{
+	position: absolute;
+	transition: all 1s;
+	top: 44px;
+	left: 0;
+	background: #000;
+	width: 100%;
+	height:0;
+	overflow: hidden;
+	/*height: 100%;*/
+}
+header .bigbox .bbox{
+	position: relative;
+
+ }
+header .bigbox .bbox .box1 {
+	position: absolute;
+	width: 100%;
+}
+.bigbox .bbox .box2{
+	opacity: 0;
+	z-index: 1;
+}
+header .bigbox input{
+	width: 90%;
+	margin-left: 5%;
+	height: 36px;
+	border-radius: 6px;
+	border:none;
+	outline: none;
+	background: #282828;
+	color: #797979;
+}
+header .bigbox ul{
+	border-top: 1px solid #282828;
+	width: 100%;
+}
+header .bigbox ul li{
+	color: #ffffff;
+	border-bottom: 1px solid #282828;
+	height: 44px;
+	width: 92%;
+	margin: 0 auto;
+}
+header .bigbox ul li:hover{
+	color: #797979;
+	cursor: pointer;
+}
+header{
+	width:100%;
+	height: 44px;
+	line-height: 44px;
+	background-color: #333;
+	padding-left: 158px;
+	padding-right: 158px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	z-index: 3;
+}
+
+header span{
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	line-height: 44px;
+}
+header span.list{
+	display: none;
+}
+
+.iphoneX{
+	padding-top: 100px;
+	text-align: center;
+    width: 100%;
+    height:690px;
+    background: #fafafa;
+    border-bottom: 12px solid #fff;
+    background-image: url('https://www.apple.com/v/home/ds/images/heroes/iphone-x/iphone_x_large.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    box-sizing: border-box;
+
+}
+.iphoneX h2,.ipad h2{
+	font-size: 50px;
+}
+.iphoneX p,.ipad p{
+	font-size: 28px;
+	margin: 14px 0;
+}
+.iphoneX a,.ipad a{
+	text-decoration: none;
+	color: #0070c9;
+}
+.ipad{
+	padding-top: 100px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 690px;
+	background-color: #fafafa;
+	text-align: center;
+	background-image: url('https://www.apple.com/cn/home/images/heroes/ipad_large.jpg');
+	background-position: 50% 80%;
+	background-repeat: no-repeat;
+}
+.mac{
+	padding-top: 100px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 690px;
+	background-color: #fafafa;
+	text-align: center;
+	background-position: 50% 80%;
+	background-repeat: no-repeat;
+	background-image: url('https://www.apple.com/cn/home/images/heroes/macbook-pro/macbook_pro_performance_large.jpg');
+}
+.mac h2{
+	font-size: 50px;
+	color: #fff;
+}
+.mac p{
+	color: #fff;
+}
+.mac a{
+	color: #fff;
+	text-decoration: none;
+}
+.nav{
+	overflow: hidden;
+}
+.nav ul li{
+	width: 50%;
+	height: 580px;
+	float: left;
+	box-sizing: border-box;
+
+	border-left: 14px solid #fff;
+	border-top: 14px solid #fff;
+}
+.nav ul li:nth-child(even){
+	border-right: 14px solid #fff;  
+}
+.nav ul li:nth-child(1){
+	background-image: url('https://www.apple.com/cn/home/images/promos/shop_for_college_large.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.nav ul li:nth-child(2){
+	background-image: url('https://www.apple.com/v/home/ds/images/promos/behind_the_mac_boniface_large.jpg');
+	background-position: center;
+}
+.nav ul li:nth-child(3){
+	background-image: url('https://www.apple.com/cn/home/images/promos/iphone_x_a11_large.jpg');
+	background-position: center;
+}
+.nav ul li:nth-child(4){
+	background-image: url('https://www.apple.com/v/home/ds/images/promos/iphone_8_large.jpg');
+	background-repeat: no-repeat;
+	background-position:50% 100%;
+	background-color: #f9f0eb;
+}
+.nav ul li:nth-child(5){
+	background-image: url('https://www.apple.com/cn/home/images/half-width-promos/trade_up_large.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.nav ul li:nth-child(6){
+	background-image: url('https://www.apple.com/cn/home/images/promos/three_rings_large.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #000;
+}
+footer{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+footer dl{
+	display: block;
+	float: left;
+	width: 20%;
+	text-align: center;
+
+}
+footer dl .title{
+	font-size: 14px;
+	font-weight: 400;
+	color: black;
+}
+footer dl dd{
+	font-size:12px;
+}
+footer dl .top{
+	margin-top: 20px;
+}
+footer .title .right{
+	display: none;
+}
+.more{
+	width: 70%;
+	height: 113px;
+	margin: 0 auto;
+	color: #888;
+	font-size: 12px;
+	padding: 17px 0 21px;
+}
+.more .shop{
+	height: 24px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.more .shop1 a{
+	color: #555;
+}
+.more .shop1{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 992px){
+	header{
+		padding-left: 18px;
+		padding-right: 18px;
+	}
+	header span.list{
+		display: inline;
+		cursor: pointer;
+	}
+	header span.text{
+		display: none;
+	}
+	.iphoneX{
+		background-image: url('https://www.apple.com/v/home/ds/images/heroes/iphone-x/iphone_x_medium.jpg');
+	}
+	.ipad{
+		background-image: url('https://www.apple.com/cn/home/images/heroes/ipad_large.jpg');
+	}
+	.mac{
+		background-image: url('https://www.apple.com/cn/home/images/heroes/macbook-pro/macbook_pro_performance_medium.jpg');
+	}
+	.nav ul li{
+		height: 490px;
+	}
+	.nav ul li:nth-child(1){
+		background-image: url('https://www.apple.com/cn/home/images/promos/shop_for_college_medium.jpg');
+		background-size: cover;
+	}
+	.nav ul li:nth-child(2){
+		background-image: url('https://www.apple.com/v/home/ds/images/promos/behind_the_mac_boniface_medium.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.nav ul li:nth-child(3){
+		background-image: url('https://www.apple.com/cn/home/images/promos/iphone_x_a11_medium.jpg');
+		background-position:center ;
+		background-repeat: no-repeat;
+	}
+	.nav ul li:nth-child(4){
+		background-image: url('https://www.apple.com/v/home/ds/images/promos/iphone_8_medium.jpg');
+		background-position:center ;
+		background-repeat: no-repeat;
+	}
+	.nav ul li:nth-child(5){
+		background-image: url('https://www.apple.com/cn/home/images/half-width-promos/trade_up_medium.jpg');
+		background-position:center ;
+		background-repeat: no-repeat;
+	}
+	.nav ul li:nth-child(6){
+		background-image: url('https://www.apple.com/cn/home/images/promos/three_rings_medium.jpg');
+		background-position:center ;
+		background-repeat: no-repeat;
+	}
+}
+@media screen and (max-width: 768px){
+	.iphoneX{
+		background-image: url('https://www.apple.com/v/home/ds/images/heroes/iphone-x/iphone_x_small.jpg')
+	}
+	.ipad{
+		background-image: url('https://www.apple.com/cn/home/images/heroes/ipad_small.jpg');
+	}
+	.mac{
+		background-image: url('https://www.apple.com/cn/home/images/heroes/macbook-pro/macbook_pro_performance_small.jpg');
+	}
+	.nav ul li{
+		width: 100%;
+		height: 500px;
+	}
+	.nav ul li:nth-child(odd){
+		border-left: none;
+	}
+	.nav ul li:nth-child(even){
+		border-left: none;
+		border-right: none;
+	}
+	.nav ul li:nth-child(1){
+		background-image: url('https://www.apple.com/cn/home/images/promos/shop_for_college_small.jpg');
+		background-size: cover;
+	}
+	.nav ul li:nth-child(2){
+		background-image: url('https://www.apple.com/v/home/ds/images/promos/behind_the_mac_boniface_small.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.nav ul li:nth-child(3){
+		background-image: url('https://www.apple.com/cn/home/images/promos/iphone_x_a11_small.jpg');
+		background-position:center ;
+		background-repeat: no-repeat;
+	}
+	.nav ul li:nth-child(4){
+		background-image: url('https://www.apple.com/v/home/ds/images/promos/iphone_8_small.jpg');
+		background-position:center ;
+		background-repeat: no-repeat;
+	}
+	.nav ul li:nth-child(5){
+		background-image: url('https://www.apple.com/cn/home/images/half-width-promos/trade_up_small.jpg');
+		background-position:center ;
+		background-repeat: no-repeat;
+	}
+	.nav ul li:nth-child(6){
+		background-image: url('https://www.apple.com/cn/home/images/promos/three_rings_small.jpg');
+		background-position:center ;
+		background-repeat: no-repeat;
+	}
+	footer{
+		position: relative;
+	}
+	footer dl{
+	width: 100%;
+	text-align: left;
+		height: 37px;
+		/*height: 181px;*/
+		overflow: hidden;
+	}	
+	footer dl dd{
+	}
+	footer dl .title{
+	font-size: 12px;
+	cursor: pointer;
+	padding: 10px 10px;
+	border-bottom: 1px solid #d6d6d6;
+		background: #f2f2f2;
+		display: flex;
+		justify-content: space-between;
+
+	}
+	footer dl .top{
+		margin-top: 0
+	}
+	footer dl .title:hover{
+		color: #000;
+	}
+	footer .title .right{
+	display: block;
+	}
+	footer .footerand ul li{
+		height: 16px;
+		width: 16px;
+		line-height: 16px;
+		cursor: pointer;
+		padding: 10px 10px;
+	}
+	.more{
+		width: 100%;
+		text-align: center;
+	}
+	.more .shop{
+		width: 100%;
+		font-size: 10px;
+		border: none;
+		line-height: 12px;
+	}
+}
